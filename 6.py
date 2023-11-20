@@ -72,4 +72,7 @@ elif x == 5:
 			print("Invalid Input!")
 	area = 1/4 * (b * (math.sqrt((4 * a ** 2) - (b**2))))
 
+else:
+	print("Error: Invalid Input!")
+
 print(f"The area of the triangle is {area}")
